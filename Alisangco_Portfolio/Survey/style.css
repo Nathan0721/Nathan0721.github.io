@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Cambria;
+}
+
+body {
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-image: url("https://r4.wallpaperflare.com/wallpaper/339/179/774/digital-art-low-poly-artwork-minimalism-wallpaper-7836ad3840b03c28007c615ef852941a.jpg");
+}
+
+header {
+	font-size: 1.25em;
+	width: 22.5%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	border: 10px ridge black;
+	background: linear-gradient(to bottom, crimson, orangered, coral);
+	padding-top: 22.5px;
+	padding-bottom: 22.5px;
+	box-shadow: 0px 0px 25px orangered;
+}
+
+h1 mark {
+	background: rgba(255, 255, 255, 0.975);
+	padding: 7.5px;
+	border: 7.5px ridge black;
+}
+
+hr {
+	margin: 0;
+	background: black;
+	border: 5px ridge black;
+}
+
+#container {
+	width: 20%;
+	margin: auto;
+	border: 10px ridge black;
+	font-size: 1.5em;
+	font-weight: bold;
+	background: ghostwhite;
+	box-shadow: 0px 0px 25px orangered;
+	text-shadow: 0px 0px 10px yellow;
+}
+
+#break {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#break:first-child {
+	margin-top: 30px;
+}
+
+#break:last-child {
+	margin-bottom: 30px;
+}
+
+input[type="submit" i] {
+	width: 7.5em;
+	height: 2.5em;
+	font-size: 1em;
+	font-weight: bold;
+	border: 5px ridge black;
+}
+
+hr:first-child, hr:last-child {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 25px orangered;
+}
+
+hr:last-child {
+	margin-bottom: 50px;
+}
+
+footer div {
+	margin: 50px;
+}
+
+#activity {
+	font-size: 3em;
+	color: yellow;
+	text-align: center;
+	margin-top: 25px;
+	text-shadow: 1px 1px 10px gold, -1px -1px 10px gold;
+}
+
+#activity:last-child {
+	margin-bottom: 50px;
+}
+
+textarea {
+	margin-top: 25px;
+}

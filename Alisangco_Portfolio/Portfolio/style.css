@@ -1,0 +1,203 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+#intro {
+  font-family: "Honk";
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+#intro-description {
+  color: white;
+  font-family: "SixtyFour";
+  font-size: 1.125rem;
+  text-shadow: 1px 1px 2.5px orangered, -1px -1px 2.5px orangered;
+  text-shadow: 2px 2px 2.5px orangered, -2px -2px 2.5px orangered;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("Background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.pro {
+  width: 95%;
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  border: 7.5px ridge azure;
+  background-color: #040622;
+  color: azure;
+  text-align: center;
+  font-family: "Workbench";
+  padding-top: 10px;
+}
+
+#divider {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#nav-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #040622;
+  text-shadow: 1px 1px 2.5px crimson, -1px -1px 2.5px crimson;
+  text-shadow: 2px 2px 2.5px crimson, -2px -2px 2.5px crimson;
+}
+
+#navbarSupportedContent a{
+  color: azure;
+  background: #040622;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 5px ridge crimson;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#navbarSupportedContent a:hover{
+  color: #040622;
+  background: azure;
+}
+
+#search-label {
+  border: 5px ridge crimson;
+}
+
+#nav-style {
+  border: 5px ridge crimson;
+}
+
+.dropdown-menu {
+  background: #040622;
+  border: 5px ridge azure;
+  padding: 10px;
+}
+
+#me {
+  width: 500px;
+  height: 500px;
+  border: 10px ridge deepskyblue;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+.box-center {
+  text-align: center;
+}
+
+#description {
+  color: azure;
+  padding: 25px;
+  font-size: 1.75em;
+  font-weight: bold;
+  text-align: center;
+  border: 7.5px ridge azure;
+  background: rgba(4, 6, 34, 0.75);
+  box-shadow: 0px 0px 20px crimson;
+}
+
+#description-div {
+  margin: auto;
+  width: 90%;
+}
+
+footer {
+  margin-top: 100px;
+  font-family: "Merriweather";
+}
+
+footer .card-header, footer .card-footer {
+  background: linear-gradient(to bottom, midnightblue, crimson, orangered, crimson, midnightblue);
+  border-top: 5px ridge crimson;
+  border-bottom: 5px ridge crimson;
+}
+
+footer .card-header mark, footer .card-footer mark {
+  color: azure;
+  background: #040622;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 5px ridge crimson;
+}
+
+footer .card-body {
+  color: azure;
+  background: #040622;
+}
+
+footer .card-title {
+  color: gold;
+  text-shadow: 1px 1px 2.5px goldenrod, -1px -1px 2.5px goldenrod;
+}
+
+footer #social-media {
+  width: 10vh;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+footer #social-media:hover {
+  color: crimson;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: crimson;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid transparent;
+  height: 0;
+}
+
+.progress {
+  width: 50%;
+  margin-top: 50px;
+}
+
+#chica-fnaf, #monkey {
+  border: 10px ridge deepskyblue;
+}
+
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Casino.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 35px;
+  border-top: 7.5px ridge azure;
+  border-bottom: 7.5px ridge azure;
+}
+
+#load {
+  margin-top: 0;
+  margin-top: 25px;
+}
+
+.card-group {
+  font-weight: bold;
+  border-top: 7.5px ridge crimson;
+  border-bottom: 7.5px ridge crimson;
+}

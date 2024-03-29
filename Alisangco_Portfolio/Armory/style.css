@@ -1,0 +1,129 @@
+/* All */
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Start of Navigation Bar */
+
+#navbar-id {
+	color: gold;
+	border: 10px ridge crimson;
+	background: url("Black.png");
+}
+
+#logo {
+	width: 100px;
+	height: 100px;
+	border: 5px ridge black;
+	box-shadow: 1px 1px 10px gold, -1px -1px 10px gold;
+}
+
+#brand-name {
+	margin-left: 10px;
+	margin-right: 25px;
+	text-shadow: 1px 1px 5px goldenrod, -1px -1px 5px goldenrod;
+}
+
+#navbarSupportedContent a{
+	color: white;
+	background: black;
+	margin-right: 10px;
+	border-radius: 10px;
+	border: 5px ridge goldenrod;
+}
+
+#navbarSupportedContent a:hover{
+	color: black;
+	background: white;
+}
+
+#search-label {
+	border: 5px ridge goldenrod;
+}
+
+/* End of Navigation Bar */
+
+/* Start of Header */
+
+header h1 {
+	color: crimson;
+	text-shadow: 1px 1px 2.5px pink, -1px -1px 2.5px pink;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/* End of Header */
+
+/* Start of Main */
+
+body {
+	background: azure;
+}
+
+main .card-img-top {
+	min-height: 500px;
+	max-height: 500px;
+}
+
+main .card-title, main .card-text {
+	text-align: center;
+}
+
+#buy-button {
+	text-align: center;
+}
+
+/* End of Main */
+
+/* Start of Footer */
+
+footer {
+	margin-top: 100px;
+}
+
+footer .card-header, footer .card-footer {
+	background: url("White.png");
+	border-top: 5px ridge crimson;
+	border-bottom: 5px ridge crimson;
+}
+
+footer .card-header mark, footer .card-footer mark {
+	color: white;
+	background: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 5px ridge goldenrod;
+}
+
+footer .card-body {
+	color: white;
+	background: url("Black.png");
+}
+
+footer .card-title {
+	color: gold;
+	text-shadow: 1px 1px 2.5px goldenrod, -1px -1px 2.5px goldenrod;
+}
+
+footer #social-media {
+	width: 10vh;
+	color: white;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+footer #social-media:hover {
+	color: crimson;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	color: crimson;
+}
+
+/* End of Footer */

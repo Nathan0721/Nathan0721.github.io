@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("AboutBackground.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.navbar {
+  font-family: "Protest Riot";
+}
+
+.navbar-brand, .nav-link {
+  color: #201F1F;
+  font-size: 1.25em;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+}
+
+.nav-link {
+  background-color: white;
+  border: 2.5px ridge #7ED957;
+  border-radius: 5px;
+  margin-right: 1vh;
+}
+
+.nav-item a:hover {
+  background-color: #201F1F;
+  color: #7ED957;
+}
+
+.portfolio-section {
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  border-top: 5px ridge honeydew;
+  border-bottom: 5px ridge honeydew;
+  background-image: url("Pattern.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-header {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  font-size: 2em;
+  color: honeydew;
+  align-items: center;
+  font-family: "Workbench";
+  background-color: #201F1F;
+  border: 5px ridge #7ED957;
+  justify-content: space-evenly;
+}
+
+.portfolio-header p {
+  margin-bottom: 0;
+}
+
+#navbar-icon {
+  margin-right: 1vh;
+}
+
+#navbar-icon, #search-bar {
+  border: 2.5px ridge #7ED957;
+}
+
+#portfolio {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 5px ridge honeydew;
+  margin-bottom: 10vh;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("HeroBackground.jpg");
+
+  /* Set a specific height */
+  height: 50vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  border-top: 5px ridge #7ED957;
+  border-bottom: 5px ridge #7ED957;
+
+  margin-bottom: 5.5vh;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Roboto";
+}
+
+.hero-text button:hover, .anti-overflow button:hover {
+  background-color: black;
+  color: white;
+}
+
+.main-content {
+  text-align: center;
+  margin-bottom: 5.5vh;
+}
+
+.main-content-header {
+  font-family: "SixtyFour";
+  color: honeydew;
+  border: 5px ridge #7ED957;
+  width: 35%;
+  margin: auto;
+  background-color: #201F1F;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+footer {
+  border-top: 5px ridge honeydew;
+  border-bottom: 5px ridge honeydew;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.card-body {
+  background-color: honeydew;
+}
+
+.anti-overflow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2vh;
+}
+
+.main-content-header-container {
+  background-image: url("Pattern.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  border-top: 5px ridge honeydew;
+  border-bottom: 5px ridge honeydew;
+}
+
+main .card {
+  border: 5px ridge honeydew;
+}
+
+.anti-overflow img {
+  border-bottom: 5px ridge honeydew;
+}
+
+main .card-footer {
+  border-top: 5px ridge honeydew;
+}
+
+i, footer a {
+  color: #201F1F;
+  width: 20vh;
+  padding-top: 5vh;
+  text-decoration: none;
+}
+
+i:hover, footer a:hover {
+  color: #7ED957;
+}
+
+#social-media {
+  margin: 0;
+}
+
+.card-group, .anti-overflow {
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.a-text {
+  height: 5.5vh;
+}
+
+.about-content {
+  text-align: center;
+  color: honeydew;
+  font-size: 2em;
+  width: 90%;
+  margin: auto;
+  font-weight: bold;
+}
+
+.about-content p {
+  border: 5px ridge honeydew;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 10px;
+}
+
+.about-content h1 {
+  margin-bottom: 5vh;
+  font-family: "SixtyFour";
+}
+
+#unique, #career-choice, #dream-job, #ten-years {
+  margin-top: 10vh;
+}
+
+/* Styles for the element to be animated */
+.fade-in-element {
+    opacity: 0; /* Initially invisible */
+    animation: fadeIn 1s ease forwards; /* Using the fadeIn animation defined below */
+}
+
+/* Keyframes for the fadeIn animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start from fully transparent */
+    }
+    to {
+        opacity: 1; /* End at fully opaque */
+    }
+}
