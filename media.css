@@ -1,0 +1,94 @@
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  /* Adjust navbar for smaller screens */
+  .navbar-collapse {
+    background-color: #101010; /* Change background color */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    padding-top: 3.5rem;
+    overflow-y: auto;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+  }
+  .navbar-collapse.show {
+    transform: translateX(0);
+  }
+  .navbar-nav {
+    width: 100%;
+  }
+  .navbar-nav .nav-link {
+    text-align: center;
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 0;
+  }
+  /* Adjust header image for smaller screens */
+  header img {
+    height: auto;
+    width: 100%;
+  }
+  /* Adjust card layout for smaller screens */
+  .card {
+    flex-direction: column;
+  }
+  /* Adjust timeline layout for smaller screens */
+  #timeline .tl-bg {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+  }
+  /* Adjust contact form layout for smaller screens */
+  .contact-form,
+  .external-links,
+  .contact-brand {
+    width: 100%;
+  }
+}
+
+/* Custom CSS for media responsiveness */
+
+/* Extra small devices (phones, 576px and down) */
+@media (max-width: 576px) {
+  /* Adjust navbar brand font size */
+  .navbar-brand {
+    font-size: 1rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Adjust navbar brand font size */
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Adjust navbar brand font size */
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Adjust navbar brand font size */
+  .navbar-brand {
+    font-size: 1.75rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Adjust navbar brand font size */
+  .navbar-brand {
+    font-size: 2rem;
+  }
+}
